@@ -1,0 +1,13 @@
+.dashboard {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background:
+    radial-gradient(1200px 600px at 20% -10%, #1f2a44 0%, transparent 60%),
+    radial-gradient(900px 500px at 120% 10%, #243b55 0%, transparent 55%),
+    #0f172a;
+}
+.dashboard .container { width: 100%; max-width: 1200px; padding: 32px 24px 64px; }
+.title { font-size: clamp(28px, 4vw, 42px); font-weight: 800; letter-spacing: -0.02em; color: #60a5fa; }
+.subtitle { margin-top: 8px; color: #cbd5e1; font-size: 16px; max-width: 820px; line-height: 1.6; }

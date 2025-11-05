@@ -1,0 +1,3 @@
+/* lightweight helpers; core visuals handled by Tailwind classes */
+.container label { color: #fff; }
+.container box-icon { position: absolute; right: 0; top: 50%; transform: translateY(-50%); }

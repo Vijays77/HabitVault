@@ -1,0 +1,2 @@
+/* Keep minimal; Tailwind handles most. This just ensures no clashes */
+input::placeholder { color: #94a3b8; }

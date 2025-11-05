@@ -1,0 +1,17 @@
+.lamp { display: none; height: 45vmin; overflow: visible !important; }
+.cord { stroke: hsl(210, 0%, calc((40 + (var(--on, 0) * 50)) * 1%)); }
+.cord--rig { display: none; }
+.lamp__tongue { fill: #e06952; }
+.lamp__hit { cursor: pointer; opacity: 0; }
+.lamp__feature { fill: #0a0a0a; }
+.lamp__stroke { stroke: #0a0a0a; }
+.lamp__mouth, .lamp__light { opacity: var(--on, 0); }
+.shade__opening { fill: hsl(50, calc((10 + (var(--on, 0) * 80)) * 1%), calc((20 + (var(--on, 0) * 70)) * 1%)); }
+.shade__opening-shade { opacity: calc(1 - var(--on, 0)); }
+.post__body { fill: hsl(210, 0%, calc((20 + (var(--on, 0) * 40)) * 1%)); }
+.base__top { fill: hsl(210, 0%, calc((40 + (var(--on, 0) * 40)) * 1%)); }
+.base__side { fill: hsl(210, 0%, calc((20 + (var(--on, 0) * 40)) * 1%)); }
+.top__body { fill: hsl(var(--shade-hue,320), 0%, calc((10 + (var(--on, 0) * 20)) * 1%)); }
+
+/* hide radios & labels in our dashboard */
+.lamp-wrap form input, .lamp-wrap form label { display: none !important; }
